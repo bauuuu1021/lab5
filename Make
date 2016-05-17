@@ -1,0 +1,5 @@
+class.o: class.h
+	g++ -o class.h class.o
+
+all: class.o class.c
+	g++ class.c class.o -o class
